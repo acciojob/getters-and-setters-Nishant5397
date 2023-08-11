@@ -6,12 +6,12 @@ class Person {
 		this.age = age;
 	}
 
-	getter() {
+	get getter() {
 		return this.name;
 	}
 
-	setter(age) {
-		this.age ="John";
+	set setter(newAge) {
+		this.age = newAge;
 	}
 }
 
