@@ -1,30 +1,27 @@
-// Define the base class Person
 class Person {
 	constructor(name, age) {
-		this.name = name; // Initialize the name property
-		this.age = age; // Initialize the age property
+		this.name = name;
+		this.age = age;
 	}
 
 	getName() {
-		return this.name; // Getter for the name property
+		return this.name;
 	}
 
 	setAge(age) {
-		this.age = age; // Setter for the age property
+		this.age = age;
 	}
 }
 
-// Define the subclass Student that extends Person
 class Student extends Person {
 	study() {
-		console.log(`${this.getName()} is studying.`); // Study method for Student
+		console.log(`${this.getName()} is studying.`);
 	}
 }
 
-// Define the subclass Teacher that extends Person
 class Teacher extends Person {
 	teach() {
-		console.log(`${this.getName()} is teaching.`); // Teach method for Teacher
+		console.log(`${this.getName()} is teaching`);
 	}
 }
 
