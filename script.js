@@ -1,5 +1,5 @@
 class Person {
-	name ="";
+	name = "";
 	age = "";
 	constructor(name, age) {
 		this.name = name;
@@ -11,7 +11,7 @@ class Person {
 	}
 
 	setter(age) {
-		this.age = age;
+		this.age ="John";
 	}
 }
 
