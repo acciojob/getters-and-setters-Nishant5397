@@ -28,10 +28,6 @@ class Teacher extends Person {
 	}
 }
 
-// Create instances of Person, Student, and Teacher
-const person = new Person("John", 30);
-const student = new Student("Alice", 22);
-const teacher = new Teacher("Professor Smith", 45);
 // Do not change the code below this line
 window.Person = Person;
 window.Student = Student;
